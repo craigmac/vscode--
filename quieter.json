@@ -1,0 +1,36 @@
+{
+    // ==============================
+    // Updates, confirmation dialogs
+    // ==============================
+    // Don't interrupt me
+    "extensions.autoUpdate": false,
+    // Don't ask me confirmations
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // Don't track me or report crashes
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    // Don't bother me with updates
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
+
+    // ================================
+    // Visual annoyances/distractions
+    // ================================
+    // Don't shower me with suggestions
+    "editor.suggest.maxVisibleSuggestions": 5,
+    // Don't need these, use Ctrl/Cmd+G
+    "editor.lineNumbers": "off",
+    // Don't blink the cursor
+    "editor.cursorBlinking": "solid",
+    // Default is true
+    "editor.minimap.enabled": false,
+
+    // ================================
+    // Behaviours
+    // ================================
+    // Don't recommend extensions to me
+    "extensions.ignoreRecommendations": true,
+    // Don't ignore my .gitignore
+    "search.useGlobalIgnoreFiles": true
+}
