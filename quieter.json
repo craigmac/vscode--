@@ -17,6 +17,10 @@
     // ================================
     // Visual annoyances/distractions
     // ================================
+    // Don't show activity bar, learn the keybindings!
+    "workbench.activityBar.visible": false,
+    // Don't show breadcrumbs
+    "breadcrumbs.enabled": false,
     // Don't shower me with suggestions
     "editor.suggest.maxVisibleSuggestions": 5,
     // Don't need these, use Ctrl/Cmd+G
@@ -25,10 +29,22 @@
     "editor.cursorBlinking": "solid",
     // Default is true
     "editor.minimap.enabled": false,
+    // Don't include 'Visual Studio Code' in title bar
+    "window.title": "${remoteName}${separator}${activeEditorLong}",
+    // Don't show icons in explorer
+    "workbench.editor.showIcons": false,
+    // Don't use icons if you do use these features
+    "workbench.iconTheme": null,
+    "outline.icons": false,
+    "breadcrumbs.icons": false,
 
     // ================================
     // Behaviours
     // ================================
+    // Don't name file after first line if not named
+    "workbench.editor.untitled.labelFormat": "name",
+    // Don't show welcome screen at startup
+    "workbench.startupEditor": "none",
     // Don't recommend extensions to me
     "extensions.ignoreRecommendations": true,
     // Don't ignore my .gitignore
